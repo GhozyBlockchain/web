@@ -145,7 +145,7 @@ const Navbar = () => {
                             </div>
                         ) : (
                             <a
-                                href="http://localhost:5180"
+                                href="https://testnet-ghozy.vercel.app"
                                 className="btn btn-primary desktop-action-button"
                                 style={{
                                     padding: '0.7rem 1.5rem',
@@ -309,7 +309,7 @@ const Navbar = () => {
                                     </div>
                                 ) : (
                                     <a
-                                        href="http://localhost:5180"
+                                        href="https://testnet-ghozy.vercel.app"
                                         className="btn btn-primary"
                                         style={{
                                             width: '100%',

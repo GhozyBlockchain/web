@@ -137,7 +137,7 @@ Block Explorer: https://ghozyscan.vercel.app`}</pre>
                 <ol className="list-decimal pl-5 space-y-4 mb-4">
                     <li>
                         <strong>Access the Testnet Portal:</strong>
-                        <p>Go to <a href="http://localhost:5173" target="_blank" className="text-accent underline font-semibold">Alpha Testnet Portal</a>.</p>
+                        <p>Go to <a href="https://testnet-ghozy.vercel.app" target="_blank" className="text-accent underline font-semibold">Alpha Testnet Portal</a>.</p>
                     </li>
                     <li>
                         <strong>Connect Wallet:</strong>
@@ -152,7 +152,7 @@ Block Explorer: https://ghozyscan.vercel.app`}</pre>
                     </li>
                     <li>
                         <strong>Register Your Node:</strong>
-                        <p>Once signed in, the "Run a Node" panel will appear. It provides a custom Docker command linked to your address. See <a href="http://localhost:5173/docs/run-node" target="_blank" className="text-accent underline">Run a Node Guide</a>.</p>
+                        <p>Once signed in, the "Run a Node" panel will appear. It provides a custom Docker command linked to your address. See <a href="https://testnet-ghozy.vercel.app/docs/run-node" target="_blank" className="text-accent underline">Run a Node Guide</a>.</p>
                     </li>
                     <li>
                         <strong>Bridge Assets:</strong>
@@ -272,7 +272,7 @@ export default config;`}</pre>
                 <h3>Method 1: Automatic (Recommended)</h3>
                 <p>The easiest way to run a node is using our DApp configuration tool.</p>
                 <ol className="list-decimal pl-5 space-y-2 mb-4">
-                    <li>Go to the <a href="http://localhost:5173" target="_blank" className="text-accent underline">Testnet Portal</a>.</li>
+                    <li>Go to the <a href="https://testnet-ghozy.vercel.app" target="_blank" className="text-accent underline">Testnet Portal</a>.</li>
                     <li>Connect your Wallet and Sign In.</li>
                     <li>Open the <strong>"Run a Node"</strong> panel.</li>
                     <li>Copy the pre-generated Docker command which already includes your wallet address.</li>

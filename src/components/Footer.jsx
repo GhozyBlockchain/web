@@ -48,7 +48,7 @@ const Footer = () => {
                             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                                 <li><Link to="/docs" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Documentation</Link></li>
                                 <li><a href="#" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>GitHub</a></li>
-                                <li><a href="http://localhost:5180" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Run a Node</a></li>
+                                <li><a href="https://testnet-ghozy.vercel.app" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Run a Node</a></li>
                             </ul>
                         </div>
 
