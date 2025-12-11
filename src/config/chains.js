@@ -12,11 +12,11 @@ export const ghozyL2 = defineChain({
         symbol: 'ETH',
     },
     rpcUrls: {
-        default: { http: ['http://localhost:8545'] },
-        public: { http: ['http://localhost:8545'] },
+        default: { http: [import.meta.env.VITE_L2_RPC_URL || 'http://localhost:8545'] },
+        public: { http: [import.meta.env.VITE_L2_RPC_URL || 'http://localhost:8545'] },
     },
     blockExplorers: {
-        default: { name: 'Ghozyscan', url: 'http://localhost:5174' },
+        default: { name: 'Ghozyscan', url: 'https://ghozyscan.vercel.app' },
     },
 })
 

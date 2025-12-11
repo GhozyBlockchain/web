@@ -100,7 +100,7 @@ const Navbar = () => {
                             Bridge
                         </Link>
                         <a
-                            href="http://localhost:5174"
+                            href="https://ghozyscan.vercel.app"
                             className="nav-link"
                             style={{
                                 fontSize: '0.95rem',
@@ -255,7 +255,7 @@ const Navbar = () => {
                             </Link>
 
                             <a
-                                href="http://localhost:5174"
+                                href="https://ghozyscan.vercel.app"
                                 onClick={closeMobileMenu}
                                 className="mobile-nav-link"
                                 style={{

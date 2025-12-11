@@ -105,7 +105,7 @@ export const docsContent = {
 RPC URL: https://rpc.ghozy.com (Example)
 Chain ID: 5207
 Currency Symbol: ETH
-Block Explorer: http://localhost:5174`}</pre>
+Block Explorer: https://ghozyscan.vercel.app`}</pre>
                 </div>
                 <p className="mt-4">
                     <strong>L1 Network:</strong> Ethereum Sepolia

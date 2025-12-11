@@ -38,7 +38,7 @@ const Footer = () => {
                             <h4 style={{ marginBottom: '1.5rem', color: 'white' }}>Ecosystem</h4>
                             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                                 <li><a href="/bridge" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Bridge</a></li>
-                                <li><a href="http://localhost:5174" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Explorer</a></li>
+                                <li><a href="https://ghozyscan.vercel.app" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Explorer</a></li>
                                 <li><a href="#" style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Apps</a></li>
                             </ul>
                         </div>
