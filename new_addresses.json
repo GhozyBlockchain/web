@@ -1,0 +1,8 @@
+{
+  "L1StandardBridge": "0x0749a60f830cbc8f0c4f398730b562a89c9a4399",
+  "L1CrossDomainMessenger": "0x601fbd799282070e944c5aefca991eb6db0c01c2",
+  "AnchorStateRegistry": "0x819b1d5f5b3f1afa1a7d34e6b2da5e699c4faeaf",
+  "OptimismPortal": "0x0829259733bab26b5bee281f948e2f2c1c84c4e5",
+  "SystemConfig": "0x5aa8f6522b54333c8ee7ef7fb7b65d7149c688e8",
+  "AnchorStateRegistryImpl": "0x094a437aa19fc03f2e88a0f7a3ec3942cb1f31dc"
+}

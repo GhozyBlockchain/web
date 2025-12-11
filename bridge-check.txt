@@ -1,0 +1,27 @@
+{
+  "OptimismPortal": {
+    "proxy": "0xdf56d998d66c78638a1af1f4700e68f8b549cc3e",
+    "implementation": "0x0000000000000000000000000000000000000000",
+    "error": "The contract function \"version\" reverted with the following reason:\nProxy: implementation not initialized\n\nContract Call:\n  address:   0xdf56d998d66c78638a1af1f4700e68f8b549cc3e\n  function:  version()\n\nDocs: https://viem.sh/docs/contract/readContract\nVersion: viem@2.41.2"
+  },
+  "L1StandardBridge": {
+    "proxy": "0xaae3af48b07a6509ea1490d5560e4bf2cf8782c8",
+    "implementation": "0x42a414b3a269e6948434faeda240a0c9a0edc5ff",
+    "version": "2.8.0",
+    "messenger": "0x70E42BBb5d6e5E99b8D31cf69C5EF3717F0B27b2",
+    "otherBridge": "0x4200000000000000000000000000000000000010",
+    "error": "The contract function \"paused\" reverted.\n\nContract Call:\n  address:   0xaae3af48b07a6509ea1490d5560e4bf2cf8782c8\n  function:  paused()\n\nDocs: https://viem.sh/docs/contract/readContract\nVersion: viem@2.41.2"
+  },
+  "L1CrossDomainMessenger": {
+    "proxy": "0x70e42bbb5d6e5e99b8d31cf69c5ef3717f0b27b2",
+    "implementation": "0x77db1fb7e0d39d4f3c4e74b0a1e97091bf694dc4",
+    "version": "2.11.0",
+    "portal": "0xDf56D998D66c78638A1Af1f4700e68F8b549Cc3E",
+    "error": "The contract function \"paused\" reverted.\n\nContract Call:\n  address:   0x70e42bbb5d6e5e99b8d31cf69c5ef3717f0b27b2\n  function:  paused()\n\nDocs: https://viem.sh/docs/contract/readContract\nVersion: viem@2.41.2"
+  },
+  "SystemConfig": {
+    "proxy": "0xbbcac69828f3d9f2809e118b0bb421d9e84dca4c",
+    "implementation": "0x3056cb7b96796387103ea61fe487e1cf92de42b0"
+  },
+  "depositSimulation": "FAILED: The contract function \"bridgeETHTo\" reverted with the following reason:\nProxy: implementation not initialized\n\nContract Call:\n  address:   0xaae3af48b07a6509ea1490d5560e4bf2cf8782c8\n  function:  bridg"
+}
