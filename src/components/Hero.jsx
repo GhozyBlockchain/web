@@ -45,8 +45,8 @@ const Hero = () => {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <h1 style={{
-                        marginBottom: '2rem',
-                        fontSize: 'clamp(3rem, 7vw, 5.5rem)',
+                        marginBottom: '1.5rem',
+                        fontSize: 'clamp(2.5rem, 7vw, 5.5rem)',
                         letterSpacing: '-0.05em',
                         lineHeight: '1.1',
                         color: '#ffffff'
@@ -77,7 +77,7 @@ const Hero = () => {
                         alignItems: 'center',
                         justifyContent: 'center',
                         gap: '2rem',
-                        marginBottom: '4rem',
+                        marginBottom: '2.5rem',
                         marginTop: '2rem',
                         flexWrap: 'wrap'
                     }}>
