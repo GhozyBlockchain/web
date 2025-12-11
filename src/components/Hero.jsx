@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Layers, Zap, Activity } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import ColorBends from './ColorBends';
+import { ShaderAnimation } from './ui/ShaderAnimation';
 
 const Hero = () => {
     return (
@@ -23,19 +23,7 @@ const Hero = () => {
                 height: '100%',
                 zIndex: 0
             }}>
-                <ColorBends
-                    colors={["#ff5c7a", "#8a5cff", "#00ffd1"]}
-                    rotation={0}
-                    autoRotate={0}
-                    speed={0.2}
-                    scale={1}
-                    frequency={1}
-                    warpStrength={1}
-                    mouseInfluence={1}
-                    parallax={0.5}
-                    noise={0.1}
-                    transparent
-                />
+                <ShaderAnimation />
             </div>
 
             <div className="container" style={{ textAlign: 'center', maxWidth: '1000px', position: 'relative', zIndex: 1 }}>

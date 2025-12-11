@@ -7,7 +7,8 @@ const Leaderboard = () => {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('http://localhost:3001/leaderboard')
+        const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+        fetch(`${API_URL}/leaderboard`)
             .then(res => res.json())
             .then(data => {
                 setUsers(data)

@@ -6,7 +6,7 @@ import { useAccount, useBalance, useWriteContract, useWaitForTransactionReceipt,
 import { parseEther } from 'viem'
 import { l1Chain, l2Chain } from '../config/chains'
 import { CONTRACTS, L2_STANDARD_BRIDGE_ABI } from '../config/contracts'
-import ColorBends from './ColorBends'
+import Beams from './ui/Beams'
 
 const Bridge = () => {
     const [direction, setDirection] = useState('deposit') // 'deposit' or 'withdraw'
@@ -99,19 +99,18 @@ const Bridge = () => {
                 height: '100%',
                 zIndex: 0
             }}>
-                <ColorBends
-                    colors={["#ff5c7a", "#8a5cff", "#00ffd1"]}
-                    rotation={0}
-                    autoRotate={0}
-                    speed={0.2}
-                    scale={1}
-                    frequency={1}
-                    warpStrength={1}
-                    mouseInfluence={1}
-                    parallax={0.5}
-                    noise={0.1}
-                    transparent
-                />
+                <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+                    <Beams
+                        beamWidth={2}
+                        beamHeight={15}
+                        beamNumber={12}
+                        lightColor="#ffffff"
+                        speed={2}
+                        noiseIntensity={1.75}
+                        scale={0.2}
+                        rotation={0}
+                    />
+                </div>
             </div>
             <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <motion.div
