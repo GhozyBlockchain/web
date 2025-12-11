@@ -297,7 +297,7 @@ const Bridge = () => {
                                     cursor: (!amount || isPending || isConfirming) ? 'not-allowed' : 'pointer'
                                 }}
                             >
-                                {isPending ? 'Confirm in wallet...' : isConfirming ? 'Confirming...' : isDeposit ? 'Deposit' : 'Withdraw'}
+                                {isPending ? 'Confirm in wallet...' : isConfirming ? 'Confirming...' : isDeposit ? 'Bridge' : 'Withdraw'}
                             </button>
                         )}
 
