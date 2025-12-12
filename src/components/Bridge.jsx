@@ -6,7 +6,7 @@ import { useAccount, useBalance, useWriteContract, useWaitForTransactionReceipt,
 import { parseEther } from 'viem'
 import { l1Chain, l2Chain } from '../config/chains'
 import { CONTRACTS, L2_STANDARD_BRIDGE_ABI } from '../config/contracts'
-import Beams from './ui/Beams'
+import EtheralShadow from './ui/EtheralShadow'
 
 const Bridge = () => {
     const [direction, setDirection] = useState('deposit') // 'deposit' or 'withdraw'
@@ -100,15 +100,10 @@ const Bridge = () => {
                 zIndex: 0
             }}>
                 <div style={{ width: '100%', height: '100%', position: 'relative' }}>
-                    <Beams
-                        beamWidth={2}
-                        beamHeight={15}
-                        beamNumber={12}
-                        lightColor="#ffffff"
-                        speed={2}
-                        noiseIntensity={1.75}
-                        scale={0.2}
-                        rotation={0}
+                    <EtheralShadow
+                        color="rgba(100, 100, 100, 0.3)"
+                        animation={{ scale: 60, speed: 40 }}
+                        sizing="fill"
                     />
                 </div>
             </div>
