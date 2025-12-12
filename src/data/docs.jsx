@@ -279,18 +279,24 @@ export default config;`}</pre>
                     <li>Paste and run it in your terminal.</li>
                 </ol>
 
-                <h3>Method 2: Manual Configuration</h3>
-                <p>If you prefer to set it up manually via Docker:</p>
+                <h3>Method 2: Manual Setup (GitHub)</h3>
+                <p>For full control, run a node directly from our verified repository:</p>
 
                 <div className="code-block">
-                    <div className="code-header">Run this command</div>
-                    <pre>{`docker run -d --name ghozy-node \\
-  -e ETH_ADDRESS=<YOUR_WALLET_ADDRESS> \\
-  -p 9000:9000 \\
-  ghozy/node:latest`}</pre>
+                    <div className="code-header">Clone & Run</div>
+                    <pre>{`# 1. Clone the repository
+git clone https://github.com/GhozyBlockchain/node.git
+cd node
+
+# 2. Configure Environment
+cp .env.example .env
+# Open .env and set your L1_RPC_URL and ETH_ADDRESS
+
+# 3. Start the Node
+make start`}</pre>
                 </div>
                 <p className="mt-4">
-                    <strong>Important:</strong> Replace <code>&lt;YOUR_WALLET_ADDRESS&gt;</code> with the customized address you want to receive rewards on.
+                    This will automatically generate your security secrets and start the node in the background. To view logs, run <code>make logs</code>.
                 </p>
 
                 <h3>Verifying Sync Status</h3>
