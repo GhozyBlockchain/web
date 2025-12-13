@@ -1,13 +1,14 @@
 // Contract Addresses on Sepolia L1
-// Updated: 2025-12-10 - Fixed deposit contract address
+// Updated: 2025-12-13 - Aligned with docker/rollup.json (newest deployment)
 export const CONTRACTS = {
-    // L1 Contracts (Sepolia) - Official OP Stack Proxies
-    OptimismPortal: '0xdf56d998d66c78638a1af1f4700e68f8b549cc3e',      // v5.2.0 - THE CORRECT DEPOSIT CONTRACT
-    L1StandardBridge: '0xaae3af48b07a6509ea1490d5560e4bf2cf8782c8',    // v2.8.0
-    L1CrossDomainMessenger: '0x70e42bbb5d6e5e99b8d31cf69c5ef3717f0b27b2', // v2.11.0
-    SystemConfig: '0xbbcac69828f3d9f2809e118b0bb421d9e84dca4c',        // v3.13.1
-    DisputeGameFactory: '0x92921e8E5C603Ddac18F6BBF553f7fA63e46c2C6',
-    L2OutputOracle: '0x8D51E02B01e633B4f1e665acbF6cE1504b886664',      // v1.4.0 (custom)
+    // L1 Contracts (Sepolia) - Newest Deployment matching rollup.json
+    OptimismPortal: '0x5e6e0817254264442bf496005c74816b454af681',      // deposit_contract_address in rollup.json
+    L1StandardBridge: '0x6304023CfDf8dEfCA44e66368064126644cD920b',    // Queried from SystemConfig
+    L1CrossDomainMessenger: '0x3cAeb0AC0E7035D7196d90b0FC42EDDebC0F79fB', // Queried from SystemConfig
+    SystemConfig: '0x644b18222b48a5230c64eba215cb2d2f9e8f75f2',        // l1_system_config_address in rollup.json
+    DisputeGameFactory: '0x0000000000000000000000000000000000000000',  // Not deployed in this version
+    L2OutputOracle: '0x0000000000000000000000000000000000000000',      // Not deployed in this version
+
 
     // L2 Contracts (Ghozy) - Standard OP Stack predeploys
     L2StandardBridge: '0x4200000000000000000000000000000000000010',
